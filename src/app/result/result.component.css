@@ -1,0 +1,53 @@
+/* Estilo para os botões de resultado na segunda página */
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2cm; /* Espaço acima dos botões */
+    overflow-x: auto; /* Adicione uma barra de rolagem horizontal se os botões não couberem na largura da tela */
+  }
+  
+  .result-button {
+    width: 70px; /* Largura maior dos botões */
+    height: 70px; /* Altura maior dos botões */
+    background-color: #00BAC2; /* Cor de fundo do botão (amarelo pastel) */
+    color: rgb(245, 239, 239); /* Cor do texto no botão */
+    border: none;
+    border-radius: 50px; /* Raio da borda para criar uma forma oval */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 24px; /* Tamanho da fonte maior */
+    font-weight: bold; /* Texto em negrito */
+    margin: 5px; /* Espaçamento entre os botões */
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  }
+  
+  /* Adicione este estilo para evitar que os botões fiquem muito próximos */
+  .result-button + .result-button {
+    margin-left: 10px; /* Espaçamento entre os botões */
+  }
+/* Estilo para o botão "Voltar à Página Inicial" */
+.back-button {
+    margin-top: 2cm;
+    width: auto;
+    height: 60px;
+    background-color: #00898F; /* Cor de fundo do botão */
+    color: #f5f2f2; /* Cor do texto no botão */
+    font-weight: bold; /* Texto em negrito */
+    border: none;
+    border-radius: 30px; /* Raio da borda para criar uma forma oval */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adicionar uma sombra sutil */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 20px; /* Espaçamento horizontal interno para ajustar o texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  
+    
+  }
+  

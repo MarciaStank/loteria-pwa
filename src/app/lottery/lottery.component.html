@@ -1,0 +1,42 @@
+<div class="container">
+
+  <div class="numbers-container">
+    <!-- Botões de números sorteados -->
+    <button
+      *ngFor="let number of lotteryNumbers"
+      class="result-button"
+    >
+      {{ number }}
+    </button>
+  </div>
+
+  <h2>Números Disponíveis:</h2>
+
+  <div class="number-buttons">
+    <!-- Efeito visual dos números de 1 a 60 -->
+    <div class="row">
+      <button *ngFor="let number of numbersArray" class="number-button">
+        {{ number }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Botão "Sortear Números" com estilo personalizado -->
+  <div class="button-container">
+    <button
+      class="button"
+      [disabled]="lotteryForm.invalid"
+      (click)="drawNumbers()"
+    >
+      Sortear Números
+    </button>
+    
+  </div>
+  <br>
+  <br>
+  <div class="banner">
+    <h2>Faça aqui seu cadastro para receber o resultado da loteria</h2>
+    <button class="cadastrar-button" (click)="navegarParaCadastro()">Cadastrar</button>
+  </div>
+
+</div>

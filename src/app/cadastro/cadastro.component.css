@@ -1,0 +1,44 @@
+/* Estilizando o título do formulário */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilizando o formulário em si */
+  form {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilizando as mensagens de erro */
+  .error {
+    font-size: small;
+    color: red;
+  }
+  
+  /* Estilizando o botão de envio */
+  button {
+    background-color: #00bac2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilizando o botão de envio quando desabilitado */
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  /* Estilo para os campos de entrada */
+.input-field {
+    border: none; /* Remove as bordas laterais e superior */
+    border-bottom: 2px solid #00898f; /* Adicione uma borda inferior verde escuro */
+    background-color: transparent; /* Fundo transparente para remover a cor de fundo */
+    color: #00898f; /* Cor do texto verde escuro */
+    padding: 5px; /* Espaçamento interno menor para a linha inferior */
+    width: 30%; /* Largura total */
+    font-size: 12px; /* Tamanho da fonte */
+  }

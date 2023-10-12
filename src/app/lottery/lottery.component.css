@@ -1,0 +1,65 @@
+/* Estilo para o botão "Sortear Números" */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1cm;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #00585C;
+    color: rgb(234, 224, 224);
+    padding: 10px 20px;
+    font-weight: bold; /* Texto em negrito */
+    border: none;
+    border-radius: 30px; /* Raio da borda para criar uma forma oval */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adicionar uma sombra sutil */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0,5cm;
+    width: auto;
+    height: 60px;
+    display: flex; /* Adicionado para alinhar o texto verticalmente */
+    align-items: center; /* Alinhar o texto verticalmente no centro */
+    justify-content: center; /* Alinhar o texto horizontalmente no centro */
+    padding: 0 20px; /* Espaçamento horizontal interno para ajustar o texto */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  }
+
+  
+  .button:hover {
+    background-color: #00898F;
+  }
+  
+  
+  /* Estilos para os botões de números */
+  .number-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #CBB26A;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .number-button:hover {
+    background-color: #D8C690;
+  }
+
+  .cadastrar-button {
+      background-color: #00bac2;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
+
+    
+  

@@ -1,0 +1,15 @@
+<h2>Lista de Usuários Cadastrados</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuarios">
+      <td>{{ usuario.nome }}</td>
+      <td>{{ usuario.email }}</td>
+    </tr>
+  </tbody>
+</table>

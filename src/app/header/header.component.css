@@ -1,0 +1,45 @@
+.header-container {
+    background-color:#00898F;
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px; /* Adiciona um espaçamento interno opcional */
+    transition: ease-in-out;
+  }
+
+  .header-title {
+    
+    font-family: 'Gluten', cursive;
+    font-size: 4rem; /* Tamanho das letras */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove margens padrão do elemento h1 */
+    color: #cbb26a; /* Cor do texto */
+    background-image: linear-gradient(90deg, #484141, #FFD700, #484141); /* Gradiente com três cores */
+    background-clip: text;
+    -webkit-background-clip: text; /* Suporte para navegadores WebKit */
+    color: transparent;
+    animation: shine 5s linear infinite; /* Animação de brilho */
+
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores */
+  .header-container {
+      flex-direction: column; /* Empilhar elementos verticalmente */
+      align-items: center;
+  }
+
+  
+    .logo {
+        width: 300px; /* Largura menor para o logo em telas menores */
+        height: auto; /* Altura automática para manter a proporção */
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Resultado do Sorteio</h1>
+  
+    <div class="numbers-container">
+      <!-- Botões de números sorteados -->
+      <button
+        *ngFor="let number of lotteryNumbers"
+        class="result-button"
+      >
+        {{ number }}
+      </button>
+    </div>
+  
+    <!-- Botão para voltar à página inicial -->
+    <button class="back-button" [routerLink]="['/']">Voltar à Página Inicial</button>
+  </div>
