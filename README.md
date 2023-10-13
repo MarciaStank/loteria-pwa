@@ -2,9 +2,9 @@ Loteria
 
 Este projeto tem como objetivo implementar uma aplicação web que simule Sorteio de Loteria.
 
-Endereço do projeto - https://github.com/MarciaStank/loteria
+Endereço do projeto - https://github.com/MarciaStank/loteria-pwa
 
-Endereço de Deploy - GitHub Pages: https://marciastank.github.io/loteria/
+Endereço de Deploy - GitHub Pages: https://marciastank.github.io/loteria-pwa/
 
 Endereço para o video explicativo no Youtube: https://youtu.be/9RoIjMQ-Tgo
 
