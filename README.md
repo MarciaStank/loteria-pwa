@@ -8,6 +8,8 @@ Endereço de Deploy - GitHub Pages: https://marciastank.github.io/loteria-pwa/
 
 Endereço para o video explicativo no Youtube: https://youtu.be/9RoIjMQ-Tgo
 
+Endereço Protótipo: https://www.figma.com/file/jB8tebTpq9ss0eA9RARj7T/Untitled?type=design&node-id=1%3A2&mode=design&t=s3JOOh51upSGzME8-1
+
 Checklist:
 
 [x]Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
